@@ -8,7 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - dbz
+  
 
 responses:
   utter_greet:
@@ -30,11 +30,7 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-  utter_dbz:
-  - text: "Even as a bot, I love DBZ! Checkout the fandom [ ]{link}"
-    image: "https://static.wikia.nocookie.net/dubbing9585/images/7/7c/Dragon-Ball-Z.png/revision/latest?cb=20210113030611"
-actions:
-  - action_hello_world
+ 
 
 
 
