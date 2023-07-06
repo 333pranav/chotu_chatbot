@@ -29,16 +29,6 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: dragon path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: dbz
-  - action: utter_dbz
 
-- story: dragon path 2
-  steps:
-  - intent: dbz
-  - action: utter_dbz
 
 
