@@ -90,9 +90,3 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-- intent: dbz
-  examples: |
-    - what do you think about dragon ball z?
-    - what do you think of dbz?
-    - which is your favorite anime?
-    - DBZ is awesome, isn't it?
