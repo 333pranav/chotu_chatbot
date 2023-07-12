@@ -21,7 +21,6 @@ class ActionHelloWorld(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        tink = "https://dragonball.fandom.com/wiki/Main_Page"
         # dispatcher.utter_message(text="Hello World!")
         dispatcher.utter_template("",tracker,link=tink)
         return []
