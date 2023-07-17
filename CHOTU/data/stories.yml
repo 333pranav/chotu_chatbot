@@ -29,6 +29,9 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-
+- story: buy oil
+  steps:
+  - intent: procure_oil
+  - action: utter_foundoil
 
 

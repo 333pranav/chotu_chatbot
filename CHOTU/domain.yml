@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - procure_oil
   
 
 responses:
@@ -30,6 +31,8 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_foundoil:
+    - text: "Here are all retailers selling olive oil"
  
 
 

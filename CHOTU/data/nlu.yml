@@ -90,3 +90,8 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+- intent: procure_oil
+  examples: |
+    - i want some olive oil
+    - can you buy me some olive oil?
+
